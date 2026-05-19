@@ -52,6 +52,11 @@ function addWordToDom() {
   word.innerHTML = randomWord;
 }
 
+function updateScore() {
+  score = score + 1;
+  scoreEl.innerHTML = score;
+}
+
 function updateTime() {
 
   time = time - 1;
